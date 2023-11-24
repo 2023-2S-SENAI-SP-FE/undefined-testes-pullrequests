@@ -8,6 +8,7 @@
     <title>E NOIS</title>
 </head>
 <body>
+    <div class="telaPreta"></div>
     <div id="telaApps" class="telaApps">
         <div id="organizacao" class="organizacao">
             <div id="menuSuperior" class="menuSuperior">
@@ -21,7 +22,7 @@
                 </div>
             </div>
             <div class="apps">
-                <div id="aplicativo1" class="aplicativo">
+                <div id="aplicativo1" class="aplicativo" onclick="mostraApp()">
                     <h2 class="nomeApps">Nome do App</h2>
                 </div>
                 <div id="aplicativo2" class="aplicativo">
@@ -54,5 +55,13 @@
             </div>
         </div>
     </div>
+
+    <script>
+        function mostraApp() {
+            const app = getElementByClassName("telaPreta")
+            
+            app.style.display="block";
+        }
+    </script>
 </body>
 </html>

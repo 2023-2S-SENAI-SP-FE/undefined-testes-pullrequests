@@ -8,6 +8,7 @@
 .telaApps{
     width: 100%;
     height: 100vh;
+    margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,7 +17,7 @@
 }
 
 .organizacao{
-    width: 100%;
+    /* width: 100%; */
     
 }
 
@@ -46,8 +47,8 @@
 }
 
 .notificacoes{
-    width: 200px;
-    height: 90px;
+    width: 180px;
+    height: 50px;
     display: flex;
     flex-wrap: wrap;
     border-radius: 15px;
@@ -85,10 +86,18 @@
 }
 
 .funcoes{
-    width: 250px;
-    height: 90px;
+    width: 200px;
+    height: 75px;
     margin: 10px auto;
     border-radius: 15px;
     background-color: aliceblue;
     color: black;
+}
+
+.telaPreta{
+    display: none;
+    background-color: black;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
 }
