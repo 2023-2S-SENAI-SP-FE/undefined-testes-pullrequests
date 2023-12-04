@@ -1,6 +1,6 @@
-body{
-    /* padding: 1vw 5vh; */
-}
+/* body{
+    padding: 1vw 5vh;
+} */
 
 .telaApps{
     width: 100%;
@@ -13,10 +13,9 @@ body{
     background-color: black;
 }
 
-.organizacao{
-    /* width: 100%; */
-    
-}
+/* .organizacao{
+    width: 100%; 
+} */
 
 .menuSuperior{
     display: flex;
